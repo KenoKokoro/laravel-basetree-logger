@@ -16,7 +16,7 @@
     }
   },
   "require": {
-    "laravel-basetree": "^1.2"
+    "kenokokoro/laravel-basetree": "^1.2"
   },
   "require-dev": {
     "mockery/mockery": "0.9.*",
