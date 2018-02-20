@@ -2,7 +2,7 @@
   "name": "kenokokoro/laravel-basetree-logger",
   "description": "Incoming response/request logger using the database or the file for the laravel-basetree package",
   "type": "library",
-  "version": "0.1",
+  "version": "0.2",
   "license": "MIT",
   "authors": [
     {
