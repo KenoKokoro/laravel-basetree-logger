@@ -6,6 +6,7 @@ namespace BaseTree\Modules\Log;
 
 use BaseTree\Models\TrafficLog;
 use Illuminate\Contracts\Logging\Log;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpFoundation\Response;
 
 class FileLogger extends BaseLogger implements ClientLogger
@@ -15,7 +16,7 @@ class FileLogger extends BaseLogger implements ClientLogger
      */
     protected $log;
 
-    public function __construct(Log $log)
+    public function __construct(LoggerInterface $log)
     {
         $this->log = $log;
     }

@@ -16,7 +16,8 @@
     }
   },
   "require": {
-    "kenokokoro/laravel-basetree": "dev-master"
+    "kenokokoro/laravel-basetree": "dev-master",
+    "psr/log": "~1.0"
   },
   "require-dev": {
     "mockery/mockery": "0.9.*",
