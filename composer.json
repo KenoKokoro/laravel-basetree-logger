@@ -16,7 +16,7 @@
     }
   },
   "require": {
-    "kenokokoro/laravel-basetree": "^1.2",
+    "kenokokoro/laravel-basetree": ">1.3",
     "psr/log": "~1.0"
   },
   "require-dev": {
