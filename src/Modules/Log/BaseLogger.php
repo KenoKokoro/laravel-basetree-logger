@@ -75,9 +75,9 @@ class BaseLogger
             if (is_array($value)) {
                 $value = count($value);
             }
-            $buildedData[$key] = $value;
+            $buildData[$key] = $value;
         }
 
-        return $buildedData ?? [];
+        return $buildData ?? [];
     }
 }

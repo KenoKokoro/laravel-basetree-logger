@@ -17,14 +17,14 @@ class CreateTrafficLogsTable extends Migration
             $table->increments('id');
 
             $table->string('client');
-            $table->string('url');
+            $table->text('url');
             $table->string('method');
             $table->text('requestHeaders');
             $table->text('requestBody')->nullable();
             $table->text('responseHeaders');
             $table->text('responseBody')->nullable();
             $table->integer('code');
-            $table->enum('going', (new BaseTree\Models\TrafficLog())->going()->toArray());
+            $table->string('going');
 
             $table->timestamps();
         });
